@@ -1,0 +1,96 @@
+name: Build & Release Modpack
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+    inputs:
+      version:
+        description: '版本号（如 1.1.2），留空则使用 pack.toml 中的版本'
+        required: false
+        type: string
+
+jobs:
+  build:
+    name: 打包整合包
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 安装 packwiz
+        run: |
+          curl -Lo packwiz.gz https://github.com/packwiz/packwiz/releases/latest/download/packwiz_linux_amd64.tar.gz
+          tar -xzf packwiz.gz
+          chmod +x packwiz
+          sudo mv packwiz /usr/local/bin/packwiz
+
+      - name: 读取整合包版本
+        id: meta
+        working-directory: 深巷世界
+        run: |
+          PACK_VERSION=$(grep '^version' pack.toml | sed 's/version = "\(.*\)"/\1/')
+          INPUT_VERSION="${{ github.event.inputs.version }}"
+          VERSION="${INPUT_VERSION:-$PACK_VERSION}"
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          echo "pack_name=$(grep '^name' pack.toml | sed 's/name = "\(.*\)"/\1/')" >> "$GITHUB_OUTPUT"
+
+      - name: 更新版本号（仅 workflow_dispatch 且指定了版本）
+        if: github.event.inputs.version != ''
+        working-directory: 深巷世界
+        run: |
+          sed -i "s/^version = .*/version = \"${{ steps.meta.outputs.version }}\"/" pack.toml
+
+      - name: 刷新 packwiz 索引
+        working-directory: 深巷世界
+        run: packwiz refresh
+
+      - name: 导出 .mrpack
+        working-directory: 深巷世界
+        run: |
+          packwiz modrinth export -o "../深巷世界-v${{ steps.meta.outputs.version }}.mrpack"
+
+      - name: 上传构建产物
+        uses: actions/upload-artifact@v4
+        with:
+          name: modpack-${{ steps.meta.outputs.version }}
+          path: 深巷世界-v${{ steps.meta.outputs.version }}.mrpack
+          retention-days: 30
+
+      - name: 生成 Changelog
+        id: changelog
+        run: |
+          # 获取上一个 tag 到当前的提交记录作为 changelog
+          PREV_TAG=$(git tag --sort=-version:refname | sed -n '2p')
+          if [ -n "$PREV_TAG" ]; then
+            LOG=$(git log "$PREV_TAG"..HEAD --pretty=format:"- %s" --no-merges)
+          else
+            LOG=$(git log --pretty=format:"- %s" --no-merges | head -20)
+          fi
+          echo "changelog<<EOF" >> "$GITHUB_OUTPUT"
+          echo "$LOG" >> "$GITHUB_OUTPUT"
+          echo "EOF" >> "$GITHUB_OUTPUT"
+
+      - name: 创建 GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.ref_type == 'tag' && github.ref_name || format('v{0}', steps.meta.outputs.version) }}
+          name: 深巷世界 v${{ steps.meta.outputs.version }}
+          body: |
+            ## 深巷世界 v${{ steps.meta.outputs.version }}
+
+            **Minecraft**: 1.20.1 | **Forge**: 47.4.18
+
+            ### 更新内容
+            ${{ steps.changelog.outputs.changelog }}
+
+            ### 安装方式
+            1. 下载 `.mrpack` 文件
+            2. 在 [Modrinth App](https://modrinth.com/app) 或 [Prism Launcher](https://prismlauncher.org/) 中导入
+          files: 深巷世界-v${{ steps.meta.outputs.version }}.mrpack
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

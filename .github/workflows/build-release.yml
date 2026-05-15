@@ -45,6 +45,19 @@ jobs:
       - name: 刷新 packwiz 索引
         run: packwiz refresh
 
+      - name: 预下载 CurseForge 限制文件到 packwiz 缓存
+        env:
+          CF_API_KEY: ${{ secrets.CF_API_KEY }}
+        run: |
+          CACHE_DIR="$HOME/.cache/packwiz/cache/import"
+          mkdir -p "$CACHE_DIR"
+          # DeathQuotes: project 253947, file 6559203
+          curl -sSL \
+            -H "x-api-key: $CF_API_KEY" \
+            "https://api.curseforge.com/v1/mods/253947/files/6559203/download-url" \
+            | jq -r '.data' \
+            | xargs curl -sSL -o "$CACHE_DIR/deathquotes-forge-1.20.1_1.20.4-3.4.jar"
+
       - name: 导出 .mrpack
         run: |
           packwiz modrinth export -o "深巷世界-v${{ steps.meta.outputs.version }}.mrpack"

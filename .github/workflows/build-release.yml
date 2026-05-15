@@ -20,12 +20,13 @@ jobs:
       - name: 检出仓库
         uses: actions/checkout@v4
 
+      - name: 安装 Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: stable
+
       - name: 安装 packwiz
-        run: |
-          curl -Lo packwiz.gz https://github.com/packwiz/packwiz/releases/latest/download/packwiz_linux_amd64.tar.gz
-          tar -xzf packwiz.gz
-          chmod +x packwiz
-          sudo mv packwiz /usr/local/bin/packwiz
+        run: go install github.com/packwiz/packwiz@latest
 
       - name: 读取整合包版本
         id: meta

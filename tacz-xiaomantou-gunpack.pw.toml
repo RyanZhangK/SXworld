@@ -1,0 +1,13 @@
+name = "TACZ : Xiaomantou GunPack"
+filename = "Xiaomantou GunPack V1.0.6.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d5a2210cc63b11a1b1c52d7003f0e179e1ee1df1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5458440
+project-id = 1038107

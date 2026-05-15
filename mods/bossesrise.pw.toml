@@ -1,0 +1,13 @@
+name = "Bosses'Rise"
+filename = "block_factorys_bosses-2.1.1-forge-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/q2bV1Tm1/versions/LsXxxdR2/block_factorys_bosses-2.1.1-forge-1.20.1.jar"
+hash-format = "sha512"
+hash = "84bf7ad1f8dd0559cb28e0029d9f0ff2a73d9e1ca05518e1c0a7b8708c8968932d901615b902514b5191c98dfe5f5837619d731f3f37fcc0b6021e577372912b"
+
+[update]
+[update.modrinth]
+mod-id = "q2bV1Tm1"
+version = "LsXxxdR2"

@@ -1,0 +1,13 @@
+name = "Progressive Tiers"
+filename = "enhanced_monster-3.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/12eY11sT/versions/658EadBX/enhanced_monster-3.1.1.jar"
+hash-format = "sha512"
+hash = "31d1503b849942883a2209cc1867c95a443e04571b897d55816fad5bb7d6095ba1a6f07c914e19ea9daade0cb294c0fadd5c5abdf9c9de34b12bb740276b9945"
+
+[update]
+[update.modrinth]
+mod-id = "12eY11sT"
+version = "658EadBX"

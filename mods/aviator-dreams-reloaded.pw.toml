@@ -1,0 +1,13 @@
+name = "Aviator Dreams (Reloaded)"
+filename = "aviator-dreams-reloaded-forge-1.2.1+1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/AOYDdieB/versions/2x12vuAf/aviator-dreams-reloaded-forge-1.2.1%2B1.20.1.jar"
+hash-format = "sha512"
+hash = "321689fd42491938e8919d999288468bfb0b2b3013f11d8c2bbb7c8bd962878abd6a568adde7c9d06be5d8c71c4d215111f2185e014eea1dbf6c4c3aea547a81"
+
+[update]
+[update.modrinth]
+mod-id = "AOYDdieB"
+version = "2x12vuAf"

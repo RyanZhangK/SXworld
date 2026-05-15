@@ -1,0 +1,13 @@
+name = "PlayerShops"
+filename = "shop-mod.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ebtYRiEN/versions/zZO0xKUV/shop-mod.jar"
+hash-format = "sha512"
+hash = "cc5702d3af9d1ab7dda218aa2cacc5afbe85f93f8aa9550139e7f7fe9ad61a7b198ad6a0a7ce51d0969fc92a926cdcbfffd90721877941c2d4c523d3f00a4b7c"
+
+[update]
+[update.modrinth]
+mod-id = "ebtYRiEN"
+version = "zZO0xKUV"

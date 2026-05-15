@@ -1,0 +1,13 @@
+name = "ShowFPS"
+filename = "showfps-1.2.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/aElOPygl/versions/mSDyAigZ/showfps-1.2.0.jar"
+hash-format = "sha512"
+hash = "9104a1fa2f80cfe655ad80b64df2190d8e45f5818a4fee7a91c8ecbdd687c7e4df0940dc646969f7fddcf9f7708fc1ef410c08c8ac0641baea79e0f0f528c9b5"
+
+[update]
+[update.modrinth]
+mod-id = "aElOPygl"
+version = "mSDyAigZ"

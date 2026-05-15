@@ -1,0 +1,13 @@
+name = "Goety Awaken Fix"
+filename = "goetyawakenfix-1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/8ZVnMeft/versions/3tfOR6EQ/goetyawakenfix-1.0.2.jar"
+hash-format = "sha512"
+hash = "77bf2a711e917af3643377169e80c4a50ce0ab6121b8308280dd4a5ec1546c75ba97fce22b7d2bd9b40527008f6b26ba45731bb29158a608b01fddc417c884e0"
+
+[update]
+[update.modrinth]
+mod-id = "8ZVnMeft"
+version = "3tfOR6EQ"

@@ -1,0 +1,13 @@
+name = "Ashen + Falling Leaves Support"
+filename = "Ashen_Falling_Leaves_Support_1.1.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/CKBl9Xj5/versions/n2uLA20Z/Ashen_Falling_Leaves_Support_1.1.zip"
+hash-format = "sha512"
+hash = "99a5849db39a40a86145b52c404c2c055dd5c0d18ea86234a4c189990bb1b23274e5b6d72ca4291aba743c053afcf60d60391bd434a15a7d79aede7ce1a08ba4"
+
+[update]
+[update.modrinth]
+mod-id = "CKBl9Xj5"
+version = "n2uLA20Z"

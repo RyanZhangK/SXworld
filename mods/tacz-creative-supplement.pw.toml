@@ -1,0 +1,13 @@
+name = "Tacz Creative Supplement"
+filename = "TaczCreativeSupplement-2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/8Qmwbkxl/versions/6WjrJIWg/TaczCreativeSupplement-2.0.jar"
+hash-format = "sha512"
+hash = "464c728b7103e2d4fd2d44fa18a29ef6b26ff013176b3b70d72e9e8b3bdd9d722c3ec2888d58281a289e04b65baf323978c54721a4ef7f7235fc7e78215e6979"
+
+[update]
+[update.modrinth]
+mod-id = "8Qmwbkxl"
+version = "6WjrJIWg"

@@ -1,0 +1,13 @@
+name = "ExtraLib"
+filename = "ExtraLib-3.0.3-1.20.1-Forge.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/2GNqVOLH/versions/RkqcKOlm/ExtraLib-3.0.3-1.20.1-Forge.jar"
+hash-format = "sha512"
+hash = "30f2b6104c7e29c276bdf1091720b03ab2def732815282cd6591a6d3265cc5bdfb938a97a4af21682ccc26ea349eab5b1a4516988a9a3e6ad28d543edb95f147"
+
+[update]
+[update.modrinth]
+mod-id = "2GNqVOLH"
+version = "RkqcKOlm"

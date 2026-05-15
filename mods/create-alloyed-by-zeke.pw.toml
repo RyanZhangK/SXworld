@@ -1,0 +1,13 @@
+name = "Create: Alloyed by zeke"
+filename = "alloyed-1.0-SNAPSHOT.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/WBREhDtP/versions/1aW7C7fM/alloyed-1.0-SNAPSHOT.jar"
+hash-format = "sha512"
+hash = "13a4795f4d00641662292d835e0edf71453c6e4ac7dc356113e49850695495d6a1f497fde275e13a2d88fe65d41ce98648fdbfc85c299effd5b1be000fe85525"
+
+[update]
+[update.modrinth]
+mod-id = "WBREhDtP"
+version = "1aW7C7fM"

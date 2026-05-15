@@ -1,0 +1,13 @@
+name = "Excalibur | FTB Quests/Teams Support"
+filename = "Excalibur-FTB-V1 (1).zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/tPyhDTZQ/versions/ebwvVtKi/Excalibur-FTB-V1%20%281%29.zip"
+hash-format = "sha512"
+hash = "4a17547f7b4f2bf7f2656464a1dc42572e7918aa6d5985f68f3401b70acc7b40c1cd1eae8f3753f1c50149f7e68c65211b467fafd884c9feac10f4058de3b8d0"
+
+[update]
+[update.modrinth]
+mod-id = "tPyhDTZQ"
+version = "ebwvVtKi"

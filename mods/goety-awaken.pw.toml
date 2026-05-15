@@ -1,0 +1,13 @@
+name = "Goety: Awaken"
+filename = "goetyawaken-1.3.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/td0qLuyC/versions/TVOWSb3z/goetyawaken-1.3.7.jar"
+hash-format = "sha512"
+hash = "d1eb581363dbc5dfb2887021d7b82184b41b4d2152597d08c6433ee9e3c1c997f77c8463b939c00fa0d9dfd3cef96266979f3ad99a8ea28bb9d864c08025ba4a"
+
+[update]
+[update.modrinth]
+mod-id = "td0qLuyC"
+version = "TVOWSb3z"

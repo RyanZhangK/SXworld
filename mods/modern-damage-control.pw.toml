@@ -1,0 +1,13 @@
+name = "Modern Damage Control"
+filename = "moderndamage-0.0.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/P7GACeRj/versions/BlhLfmBj/moderndamage-0.0.4.jar"
+hash-format = "sha512"
+hash = "011204a650f04e5d245fbea1762a5e8400ffd229ef44a51e3d326e013a1c478b2d9d8a3568bc26246ee03f1a090c7837132ce8834d79771b0f1177bcdc75149b"
+
+[update]
+[update.modrinth]
+mod-id = "P7GACeRj"
+version = "BlhLfmBj"

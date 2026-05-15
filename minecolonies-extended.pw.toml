@@ -1,0 +1,13 @@
+name = "MineColonies Extended"
+filename = "MineColonies Extended-v1.1.3.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "11492d14225f53b2e04116084280d901d639e42d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5486076
+project-id = 1011880

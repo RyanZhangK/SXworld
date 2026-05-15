@@ -1,0 +1,13 @@
+name = "PlayTimeStatistics"
+filename = "playtimestatistics-1.20.x-zh-CN-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/rsBa8ErW/versions/l7p4hUk0/playtimestatistics-1.20.x-zh-CN-1.0.1.jar"
+hash-format = "sha512"
+hash = "a16efc4964c63cfb7b3796740ce207cb56027474bf70aa2f04338b6c3761867a12f58eb156cda4829e64023c8dabe5e9911b7e7f1059a3d63061c9eb2af63d00"
+
+[update]
+[update.modrinth]
+mod-id = "rsBa8ErW"
+version = "l7p4hUk0"

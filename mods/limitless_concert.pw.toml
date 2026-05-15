@@ -1,0 +1,13 @@
+name = "Limitless Concert"
+filename = "ywzj_midi-1.20.1-forge-1.7.2-all.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ypSQF5Qz/versions/x4EkUQrM/ywzj_midi-1.20.1-forge-1.7.2-all.jar"
+hash-format = "sha512"
+hash = "acf5b32b663a0d49fed49e11f357e530ff12655b16080e58e8bf8d91d67f6fa71efc8f9bff82a83a6b71bed561cdd57df516b65a3a5abfaa8a3ff4f55fd5984b"
+
+[update]
+[update.modrinth]
+mod-id = "ypSQF5Qz"
+version = "x4EkUQrM"

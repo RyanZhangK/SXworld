@@ -1,0 +1,13 @@
+name = "GD656Killicon"
+filename = "gd656killicon-1.1.1.003-1.20.1-forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/dWe4hPBb/versions/99M3Chfg/gd656killicon-1.1.1.003-1.20.1-forge.jar"
+hash-format = "sha512"
+hash = "a1bddf304f0c5f4b90aa7b3604060b4bccf0f317fbbade77a778611e3eed9fe2f45b45601d56eda38a993abab983e68d1bf6136ae39bb5d2b7da89dc297f6e33"
+
+[update]
+[update.modrinth]
+mod-id = "dWe4hPBb"
+version = "99M3Chfg"

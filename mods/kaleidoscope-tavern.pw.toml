@@ -1,0 +1,13 @@
+name = "Kaleidoscope Tavern"
+filename = "kaleidoscopetavern-1.0.1-forge+mc1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "01ccaa0b987930e2cb9ea2504dffa006103d01fa"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7785541
+project-id = 1475175

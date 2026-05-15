@@ -1,0 +1,15 @@
+lang:zh_cn
+fov:90
+gamma:1.0
+renderDistance:12
+simulationDistance:8
+guiScale:0
+ao:true
+particles:1
+mipmapLevels:4
+entityShadows:true
+chatVisibility:0
+narrator:0
+tutorialStep:none
+joinedFirstServer:true
+hideBundleTutorial:true

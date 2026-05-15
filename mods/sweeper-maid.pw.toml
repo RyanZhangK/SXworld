@@ -1,0 +1,13 @@
+name = "Sweeper Maid"
+filename = "sweeper_maid-1.1.2.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/XBjSDj8t/versions/4Fx97QFQ/sweeper_maid-1.1.2.jar"
+hash-format = "sha512"
+hash = "dc1fd83e429d8ed0dcc840c92719c85b150cfc220070453370b8af4a53f5fbdf17bf413c4bd31db818efde7f31df2ac485c0a05a72ccf977b3095779f829f4ad"
+
+[update]
+[update.modrinth]
+mod-id = "XBjSDj8t"
+version = "4Fx97QFQ"

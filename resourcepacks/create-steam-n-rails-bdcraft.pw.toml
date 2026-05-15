@@ -1,0 +1,13 @@
+name = "Create: Steam 'n' Rails BDCraft"
+filename = "[32x] Create Steam 'n' Rails BDCraft - 1.20.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d77a06293f01123c1be15c7836ca6a39a3d6c48d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6265990
+project-id = 1213588

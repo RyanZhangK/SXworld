@@ -1,0 +1,45 @@
+customization {
+    target-screen: MAIN_MENU
+
+    element {
+        type: image
+        id: background
+        x: 0
+        y: 0
+        width: %screenwidth%
+        height: %screenheight%
+        image: config/fancymenu/assets/background.jpg
+        stretch: true
+        layer: -1
+    }
+
+    element {
+        type: text
+        id: title_text
+        x: center
+        y: 30
+        text: §6§l深巷世界
+        fontsize: 30
+        shadow: true
+        layer: 1
+    }
+
+    element {
+        type: text
+        id: subtitle_text
+        x: center
+        y: 70
+        text: §7一个充满故事的故事
+        fontsize: 14
+        shadow: true
+        layer: 1
+    }
+
+    vanillabuttonbehavior {
+        # 将所有原版按钮整体向右侧居中对齐
+        # x: 右侧 1/4 处水平居中，y: 屏幕垂直居中
+        button-x: %screenwidth% - 220
+        button-y: center
+        button-anchor: right_center
+    }
+}

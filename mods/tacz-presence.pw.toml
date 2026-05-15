@@ -1,0 +1,13 @@
+name = "Tacz: Presence"
+filename = "tacz_presence-1.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/OA8dQgG0/versions/P1vPBcPP/tacz_presence-1.4.jar"
+hash-format = "sha512"
+hash = "a6c0746127571f5ea4fdbe0385e27f80812134e9de8ac83d2ceb9aa7a601b98939935363d44b9afc9d16bd2e0a5708fee7bde76ec60c8230792715c7082ef0f5"
+
+[update]
+[update.modrinth]
+mod-id = "OA8dQgG0"
+version = "P1vPBcPP"

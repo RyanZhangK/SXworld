@@ -1,0 +1,13 @@
+name = "EveryXHotpot"
+filename = "everyxhotpot-2.0.0-pre1-1.20.1-TeaCon2023.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/346Wf89R/versions/wGD3mX9R/everyxhotpot-2.0.0-pre1-1.20.1-TeaCon2023.jar"
+hash-format = "sha512"
+hash = "dacd660b1e029ff08606af4d1b3369bdf52a166ca9473dc373ba971a19e5d6ce58e613d548a36429230e16be5f2e305b30390a1601759f9b514a8c82ceeda89e"
+
+[update]
+[update.modrinth]
+mod-id = "346Wf89R"
+version = "wGD3mX9R"

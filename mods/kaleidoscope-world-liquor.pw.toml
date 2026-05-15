@@ -1,0 +1,13 @@
+name = "Kaleidoscope World Liquor"
+filename = "kaleidoscope_world_liquor-1.1.4-forge+mc1.20.1-all.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ePVLCraM/versions/od79rpkV/kaleidoscope_world_liquor-1.1.4-forge%2Bmc1.20.1-all.jar"
+hash-format = "sha512"
+hash = "e04969d9fa2e3fa6668b7ec464ef9606ad3a5c69bdd7d1fb1afccdae9c3f7413bc7362531211eff245848c02c4072bf85e1eb6b4d0fe6d9ccb7c86199d133be7"
+
+[update]
+[update.modrinth]
+mod-id = "ePVLCraM"
+version = "od79rpkV"

@@ -1,0 +1,13 @@
+name = "Server I18n API"
+filename = "server_i18n_api-1.5.1-1.20.1-forge.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/Cl2eyShu/versions/z56rspVM/server_i18n_api-1.5.1-1.20.1-forge.jar"
+hash-format = "sha512"
+hash = "1ec0e988b18e003eb3d1f72c463b8440c45738fd6303e62132677ec1eaa4152416ece17e1648dc7f7bd1b0649aef229657704d7a4e69572b04bdcd40af27f8e7"
+
+[update]
+[update.modrinth]
+mod-id = "Cl2eyShu"
+version = "z56rspVM"

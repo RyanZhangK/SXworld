@@ -1,0 +1,13 @@
+name = "Create:Stuff&Additionas Retexture"
+filename = "Create_SA_retexutre.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6f287b16efacf8a9f6c2e9998a8902cbf764c5fd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5700288
+project-id = 1098429

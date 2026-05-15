@@ -1,0 +1,13 @@
+name = "ClearDrops"
+filename = "cleardrops-1.0.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/vGy1wL7j/versions/UVydAoIq/cleardrops-1.0.1.jar"
+hash-format = "sha512"
+hash = "6ee8d0cb1163f9d94787329c2f9c23feaa1c63c13b5323b29f50eeb91e8610136285a8046649d8074ea319f8a91174ccaf9736a96cfe59d814785e4fd61331e6"
+
+[update]
+[update.modrinth]
+mod-id = "vGy1wL7j"
+version = "UVydAoIq"

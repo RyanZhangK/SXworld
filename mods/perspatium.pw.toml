@@ -1,0 +1,13 @@
+name = "Ad Astra: Per Spatium"
+filename = "perspatium-1.20.1-1.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d6e472611dfa3e9d59c125dee4400fe80537362e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6051020
+project-id = 1164846

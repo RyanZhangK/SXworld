@@ -1,0 +1,13 @@
+name = "[TaCZ] Charge into battle:Reboot Pack"
+filename = "[Tacz1.1.7+]CIBR_GunsPack_v0.3_1.1.7.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fbadb50d990eebdc565d2341e1d24dc718c82b6f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7280896
+project-id = 1075478

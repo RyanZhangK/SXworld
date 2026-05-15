@@ -1,0 +1,13 @@
+name = "ChangShengJue"
+filename = "ChangShengJue-1.20.1-0.7.9-beta.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/fmuqYH02/versions/rsSKgCUr/ChangShengJue-1.20.1-0.7.9-beta.jar"
+hash-format = "sha512"
+hash = "4c07c2340e1b2096ef62947aa7e5c7034a06cd90ae683c69cb23d501016b7f4157b83d4ea7f2921194018eb34d3c03c011669edea1ea7e0f3e78230a5023e858"
+
+[update]
+[update.modrinth]
+mod-id = "fmuqYH02"
+version = "rsSKgCUr"

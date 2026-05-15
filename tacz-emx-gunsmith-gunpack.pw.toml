@@ -1,0 +1,13 @@
+name = "[TaCZ]CUST-Gunsmith gunpack"
+filename = "[Tacz1.1.5+]CUST GunsmithPack ver1.1.5.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "26df15b26810858593d100e1a46b5586cec9c057"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6623797
+project-id = 1106650

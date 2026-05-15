@@ -1,0 +1,13 @@
+name = "Limitless Vehicle"
+filename = "ywzj_vehicle-1.20.1-0.5.4.2-all.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "500acd29135390a1481be102ee3587b41347f262"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8068642
+project-id = 1446269

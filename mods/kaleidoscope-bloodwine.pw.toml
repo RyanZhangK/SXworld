@@ -1,0 +1,13 @@
+name = "kaleidoscope_bloodwine"
+filename = "kaleidoscope_bloodwine-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4a4c6c58c787c26b09e98927b71f85ab16d08b9e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8008704
+project-id = 1528435

@@ -1,0 +1,13 @@
+name = "Legendary Survival Overhaul"
+filename = "legendarysurvivaloverhaul-1.20.1-2.4.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/TQr3t8Sb/versions/mHCOhIeG/legendarysurvivaloverhaul-1.20.1-2.4.2.jar"
+hash-format = "sha512"
+hash = "3f5f1fafc72b3d370f7f4d857c2fb3f895bb7d813e4047c5bf86013915ecaae08606ee1c842591e3a96be70a47723f6df8271878bd3cdc502aa349dbed8774fe"
+
+[update]
+[update.modrinth]
+mod-id = "TQr3t8Sb"
+version = "mHCOhIeG"

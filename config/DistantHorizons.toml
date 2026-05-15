@@ -1,0 +1,11 @@
+[graphics]
+    lodChunkRenderDistance = 128
+    lodQualityPreset = 1
+    enableShadows = false
+
+[worldGeneration]
+    numberOfWorldGenerationThreads = 2
+    enableDistantGeneration = true
+
+[multiplayer]
+    enableServerSideLodSharing = true

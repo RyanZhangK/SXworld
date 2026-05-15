@@ -51,12 +51,17 @@ jobs:
         run: |
           CACHE_DIR="$HOME/.cache/packwiz/cache/import"
           mkdir -p "$CACHE_DIR"
+          JAR="$CACHE_DIR/deathquotes-forge-1.20.1_1.20.4-3.4.jar"
           # DeathQuotes: project 253947, file 6559203
-          curl -sSL \
+          # 先尝试 API 获取下载链接，部分文件 API 返回 null，回退到 CDN 直链
+          DOWNLOAD_URL=$(curl -sSL \
             -H "x-api-key: $CF_API_KEY" \
             "https://api.curseforge.com/v1/mods/253947/files/6559203/download-url" \
-            | jq -r '.data' \
-            | xargs curl -sSL -o "$CACHE_DIR/deathquotes-forge-1.20.1_1.20.4-3.4.jar"
+            | jq -r '.data // empty')
+          if [ -z "$DOWNLOAD_URL" ]; then
+            DOWNLOAD_URL="https://edge.forgecdn.net/files/6559/203/deathquotes-forge-1.20.1_1.20.4-3.4.jar"
+          fi
+          curl -sSL -o "$JAR" "$DOWNLOAD_URL"
 
       - name: 导出 .mrpack
         run: |

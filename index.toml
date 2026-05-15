@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".github/workflows/build-release.yml"
+hash = "3ae324c49f9b76d4ec522812bb025fbcd80fd55497adfd1eb7e8ffe827cce87d"
+
+[[files]]
+file = "README.md"
+hash = "e65afcd5ce7e4132876adc08498b329e037f2674a4a695643aeb03c90bfdb4fa"
+
+[[files]]
 file = "config/DistantHorizons.toml"
 hash = "5bed9cb723a94cfb8f7231abfab1e00b2c68f2b38c2c266b5552e72a1da86fef"
 
@@ -28,10 +36,6 @@ hash = "1ede64fcec1f6230e2181cca71f46160c68bcb52f456a9e963fdbda8491de826"
 file = "minecolonies-extended.pw.toml"
 hash = "fb7d364de6b8b7d7686073fe7f663388751331f2f5a96c3e71510c0011a38c3f"
 metafile = true
-
-[[files]]
-file = "mods/1.20.1-小桃游戏机-momoi_game_console-1.0.jar"
-hash = "e68d31e9006f6bf7c763fe3f62aa7f40e43469890c6a4a05c2031353d437fd5e"
 
 [[files]]
 file = "mods/ad-astra-extra-additions.pw.toml"
@@ -209,6 +213,11 @@ hash = "e6b58f23c741ff89b97cfab8242ad4f34d0b91082bb8d861b9f4ed08c9beece0"
 metafile = true
 
 [[files]]
+file = "mods/create-design-n-decor.pw.toml"
+hash = "db975ac6f7723fa6230f64ce45b0986774437c4429237f62299e3de71b32b372"
+metafile = true
+
+[[files]]
 file = "mods/create-diesel-generators.pw.toml"
 hash = "71918d13bde877a24fbe2be5a7cf93514c70ce170c50cd4c96eef0f36841a89a"
 metafile = true
@@ -219,8 +228,18 @@ hash = "c670ae9055f10dafb61fe340583c361f4c41ed45671c9440bae1f0696b47252a"
 metafile = true
 
 [[files]]
+file = "mods/create-ore-excavation.pw.toml"
+hash = "df547fc51e128ea2cb0af3cbc651cab63feefd5e675444262776dd530d63a1e4"
+metafile = true
+
+[[files]]
 file = "mods/create-prismatic-shine.pw.toml"
 hash = "7c74449a25e04fae3d729c3a4a04091c823044519d3a245acc01faf6a257d347"
+metafile = true
+
+[[files]]
+file = "mods/create-steam-n-rails.pw.toml"
+hash = "4c091982c192238cc7b2cefbb3a6e634edc6d7a780e547d693df7f4e3e1b04be"
 metafile = true
 
 [[files]]
@@ -271,11 +290,6 @@ metafile = true
 [[files]]
 file = "mods/customnpcs-unofficial.pw.toml"
 hash = "8ef480cb001f20ebda2536aa4fbe869673995d27b215dfd9256bc0e3892ac508"
-metafile = true
-
-[[files]]
-file = "mods/deathquotes-death-quotes.pw.toml"
-hash = "9a7b4ff570647c0fd2a3f6d521f5c994466c139790e0d2131100d2805248b9cf"
 metafile = true
 
 [[files]]
@@ -381,6 +395,11 @@ metafile = true
 [[files]]
 file = "mods/goety.pw.toml"
 hash = "3ff77f1156fa2c4bb82aaaef016215bcf84fc0ab93e78d9c66d5aef855008f1f"
+metafile = true
+
+[[files]]
+file = "mods/gravestone-mod.pw.toml"
+hash = "df07d5af0d287b944943b65e0b0990dc21fbbad6fee05b9d698a9f62b906ea9c"
 metafile = true
 
 [[files]]
@@ -760,7 +779,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "1b1e9d791fbeb7cf340536f0920ece84a9ba6c6d60ca13d7d6b9b034b2af45aa"
+hash = "ce479c9b03274b2129c8401839e66562ad7706a3e9917037bcd9a705abea052d"
 
 [[files]]
 file = "resourcepacks/ashen-falling-leaves-support.pw.toml"
@@ -783,8 +802,8 @@ hash = "23351b87bc8c04b7e6ad56e3eb3d292dd40ee6b802a525da920d1930e8b6c14a"
 metafile = true
 
 [[files]]
-file = "server.properties"
-hash = "0e099deeebab9407c4fd043bbed45693e4183b62a61597094565870350803bfb"
+file = "servers.dat"
+hash = "930cc79d85073347c893bfae9a15718af852822852cfd2944c4606482811b31b"
 
 [[files]]
 file = "shaderpacks/bsl-shaders.pw.toml"
@@ -810,7 +829,3 @@ metafile = true
 file = "tacz-xiaomantou-gunpack.pw.toml"
 hash = "e03244fdc25dd438d90922d774f2de56682e5724bbe351d2b490aa2aa68e9152"
 metafile = true
-
-[[files]]
-file = "⭐打开游戏前请查看⭐.txt"
-hash = "c8942f4a825fd2ddfac4f7ec367c76cfb7fec6d97b6e1a52a82ec06c61c09095"

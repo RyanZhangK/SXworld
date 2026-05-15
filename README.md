@@ -70,7 +70,7 @@ Farmer's Delight 及其大量扩展（每壶热锅、葡萄酒庄、玉米美食
 
 官方服务端基于 **Mohist**（Forge + Bukkit 混合端），支持同时运行 Forge Mod 与 Bukkit 插件。
 
-- 服务器地址：*待公布*
+- 服务器地址：`wmxz.pu.ac.cn:25577`
 - 登录验证：AuthMe（支持离线账号）
 - 模式：生存，难度普通
 

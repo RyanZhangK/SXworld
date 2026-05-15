@@ -30,7 +30,6 @@ jobs:
 
       - name: 读取整合包版本
         id: meta
-        working-directory: 深巷世界
         run: |
           PACK_VERSION=$(grep '^version' pack.toml | sed 's/version = "\(.*\)"/\1/')
           INPUT_VERSION="${{ github.event.inputs.version }}"
@@ -40,18 +39,15 @@ jobs:
 
       - name: 更新版本号（仅 workflow_dispatch 且指定了版本）
         if: github.event.inputs.version != ''
-        working-directory: 深巷世界
         run: |
           sed -i "s/^version = .*/version = \"${{ steps.meta.outputs.version }}\"/" pack.toml
 
       - name: 刷新 packwiz 索引
-        working-directory: 深巷世界
         run: packwiz refresh
 
       - name: 导出 .mrpack
-        working-directory: 深巷世界
         run: |
-          packwiz modrinth export -o "../深巷世界-v${{ steps.meta.outputs.version }}.mrpack"
+          packwiz modrinth export -o "深巷世界-v${{ steps.meta.outputs.version }}.mrpack"
 
       - name: 上传构建产物
         uses: actions/upload-artifact@v4

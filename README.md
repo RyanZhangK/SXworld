@@ -55,13 +55,20 @@ Farmer's Delight 及其大量扩展（每壶热锅、葡萄酒庄、玉米美食
 ## 快速开始
 
 ### 使用 Modrinth App（推荐）
+
 1. 安装 [Modrinth App](https://modrinth.com/app)
 2. 从 [Releases](../../releases) 下载最新的 `.mrpack` 文件
 3. 在 Modrinth App 中点击「导入」，选择下载的文件
 4. 启动游戏
 
 ### 使用 Prism Launcher
+
 1. 安装 [Prism Launcher](https://prismlauncher.org/)
+2. 新建实例 → 从文件导入 → 选择 `.mrpack` 文件
+
+### 使用 HMCL/PCL
+
+1. 安装启动器
 2. 新建实例 → 从文件导入 → 选择 `.mrpack` 文件
 
 ---

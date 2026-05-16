@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = ".github/workflows/build-release.yml"
-hash = "3ae324c49f9b76d4ec522812bb025fbcd80fd55497adfd1eb7e8ffe827cce87d"
+hash = "b9d77ede1935f8eea4c277b465eaed55350e4f4d0145251073184864e4f1c5e2"
 
 [[files]]
 file = "README.md"
@@ -399,11 +399,6 @@ metafile = true
 [[files]]
 file = "mods/goety.pw.toml"
 hash = "3ff77f1156fa2c4bb82aaaef016215bcf84fc0ab93e78d9c66d5aef855008f1f"
-metafile = true
-
-[[files]]
-file = "mods/gravestone-mod.pw.toml"
-hash = "df07d5af0d287b944943b65e0b0990dc21fbbad6fee05b9d698a9f62b906ea9c"
 metafile = true
 
 [[files]]

@@ -108,6 +108,6 @@ jobs:
             2. 在 [Modrinth App](https://modrinth.com/app) 或 [Prism Launcher](https://prismlauncher.org/) 中导入
           files: 深巷世界-v${{ steps.meta.outputs.version }}.mrpack
           draft: false
-          prerelease: false
+          prerelease: ${{ contains(steps.meta.outputs.version, '-') }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

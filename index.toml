@@ -38,10 +38,6 @@ hash = "fb7d364de6b8b7d7686073fe7f663388751331f2f5a96c3e71510c0011a38c3f"
 metafile = true
 
 [[files]]
-file = "mods/1.20.1-小桃游戏机-momoi_game_console-1.0.jar"
-hash = "e68d31e9006f6bf7c763fe3f62aa7f40e43469890c6a4a05c2031353d437fd5e"
-
-[[files]]
 file = "mods/ad-astra-extra-additions.pw.toml"
 hash = "2c748a64d6ab3459085e65d529289c76f10ebc8b4ffe10296e4f9f0e584970a7"
 metafile = true
@@ -104,11 +100,6 @@ metafile = true
 [[files]]
 file = "mods/banitems.pw.toml"
 hash = "1c404be7d53a5771f7591292f971b4e70f69ac8049fd55283a9c33a08a1f6365"
-metafile = true
-
-[[files]]
-file = "mods/big-cry.pw.toml"
-hash = "3ae7610fd72fd886217d60d649b2c3028e1166dd033beae4d27b54121d501cb3"
 metafile = true
 
 [[files]]

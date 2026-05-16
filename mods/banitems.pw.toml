@@ -1,0 +1,13 @@
+name = "Banitems"
+filename = "banitems-1.0.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/RSrNfkjL/versions/pfYpgKi1/banitems-1.0.3.jar"
+hash-format = "sha512"
+hash = "2623e5bc569f83d08d696cc5532cede669ab5ecc4fad2141c02cf0e1d3049e664fe76a2da2ce0074b514e1ba7b9f327cb99937494593d3e95758498662d28d62"
+
+[update]
+[update.modrinth]
+mod-id = "RSrNfkjL"
+version = "pfYpgKi1"

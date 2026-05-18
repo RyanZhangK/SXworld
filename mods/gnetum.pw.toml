@@ -1,0 +1,13 @@
+name = "Gnetum"
+filename = "gnetum-2.4.4.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/7MoE34WK/versions/Y5Xc2gEd/gnetum-2.4.4.jar"
+hash-format = "sha512"
+hash = "5e29e6b9e35ed49827a34d12a03173b446a4d64499f593be682df94fd46b82aa17a92629da4674bb5baaeb1cdfbd96955ff77401e0637468089175ef767b711c"
+
+[update]
+[update.modrinth]
+mod-id = "7MoE34WK"
+version = "Y5Xc2gEd"

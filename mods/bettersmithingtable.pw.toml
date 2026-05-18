@@ -1,0 +1,13 @@
+name = "Better Smithing Table"
+filename = "better_smithing_table-2.1.0+1.20-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2f42b78eb9d2fe6aa437563c5d6a9fd0bea0b66a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6869167
+project-id = 875744

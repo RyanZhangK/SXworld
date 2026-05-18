@@ -1,12 +1,12 @@
 name = "深巷世界"
 author = "深巷世界维护组"
-version = "1.2.3"
+version = "1.3.0-beta.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "d51eed9589bf6f5caf1ff031dc2567b7393aa06b76562c5375bef176fe59bed1"
+hash = "850574ffedcc6400c3e408d6001a5b1ed06b6c6ecc08d338da0fe5eec9fc07a3"
 
 [versions]
 forge = "47.4.18"

@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = ".github/workflows/build-release.yml"
-hash = "b9d77ede1935f8eea4c277b465eaed55350e4f4d0145251073184864e4f1c5e2"
+hash = "d8b7e1a8167bb243e755ae91276b37225fa3634a2d0e3b5130504ca05ed3a43c"
 
 [[files]]
 file = "README.md"
@@ -417,6 +417,11 @@ hash = "91e8719a2b1c6a9b4ee6b3b9658ef5357cc2be66a6dddc6407e4529181902aff"
 metafile = true
 
 [[files]]
+file = "mods/framework.pw.toml"
+hash = "9e2175476f720e0b2d21b28e91873cecf5555648e2137310e1b7cf98f6b98ab8"
+metafile = true
+
+[[files]]
 file = "mods/fruits-delight.pw.toml"
 hash = "f4dfbacd1841ba53b5b2419abff38d84b6508f150193456b4c5adb6409801340"
 metafile = true
@@ -714,6 +719,11 @@ metafile = true
 [[files]]
 file = "mods/progressive-tiers.pw.toml"
 hash = "d5cf077fe306a88f9ea804c474e54920f1aae44448f35a549d08513d4c3fdd6f"
+metafile = true
+
+[[files]]
+file = "mods/refurbished-furniture.pw.toml"
+hash = "2bcee75d08b33dd6506b7cd3f67ea9d0d2c1bf14e26728fa8e12ef19c895b165"
 metafile = true
 
 [[files]]

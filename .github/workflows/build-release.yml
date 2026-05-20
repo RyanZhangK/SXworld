@@ -80,9 +80,9 @@ jobs:
             "https://api.curseforge.com/v1/mods/580036/files/7543365/download-url" \
             | jq -r '.data // empty')
           if [ -z "$DOWNLOAD_URL" ]; then
-            DOWNLOAD_URL="https://edge.forgecdn.net/files/7543/365/[1.5]%20Enhanced%20Boss%20Bars.zip"
+            DOWNLOAD_URL="https://edge.forgecdn.net/files/7543/365/%5B1.5%5D%20Enhanced%20Boss%20Bars.zip"
           fi
-          curl -sSL -o "$CACHE_DIR/[1.5] Enhanced Boss Bars.zip" "$DOWNLOAD_URL"
+          curl -sSL -g -o "$CACHE_DIR/[1.5] Enhanced Boss Bars.zip" "$DOWNLOAD_URL"
 
       - name: 导出 .mrpack
         run: |

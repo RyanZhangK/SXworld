@@ -112,6 +112,11 @@ hash = "1c404be7d53a5771f7591292f971b4e70f69ac8049fd55283a9c33a08a1f6365"
 metafile = true
 
 [[files]]
+file = "mods/bed-benefits.pw.toml"
+hash = "5e2b0b4136493ae83386e7ca9a8f09828d744aac0a06f6032a904e6bc920fefa"
+metafile = true
+
+[[files]]
 file = "mods/bettersmithingtable.pw.toml"
 hash = "1eac7a7896bcfb21519f385f59b6e52a3029528e15e0033c6011724fc41ed9a4"
 metafile = true
@@ -119,6 +124,11 @@ metafile = true
 [[files]]
 file = "mods/blueprint.pw.toml"
 hash = "8497840a336f7d98a140959ab6c5102ab377c19e25b7f467ef5658aea1d680db"
+metafile = true
+
+[[files]]
+file = "mods/bookshelf-lib.pw.toml"
+hash = "ba71bdea2bb0e65eb53646a70e710a23bd711743aba3bc8ba1f2e1034f1cbc50"
 metafile = true
 
 [[files]]

@@ -53,9 +53,8 @@ jobs:
         run: |
           CACHE_DIR="$HOME/.cache/packwiz/cache/import"
           mkdir -p "$CACHE_DIR"
-          JAR="$CACHE_DIR/deathquotes-forge-1.20.1_1.20.4-3.4.jar"
-          # DeathQuotes: project 253947, file 6559203
           # 先尝试 API 获取下载链接，部分文件 API 返回 null，回退到 CDN 直链
+          # DeathQuotes: project 253947, file 6559203
           DOWNLOAD_URL=$(curl -sSL \
             -H "x-api-key: $CF_API_KEY" \
             "https://api.curseforge.com/v1/mods/253947/files/6559203/download-url" \
@@ -63,7 +62,27 @@ jobs:
           if [ -z "$DOWNLOAD_URL" ]; then
             DOWNLOAD_URL="https://edge.forgecdn.net/files/6559/203/deathquotes-forge-1.20.1_1.20.4-3.4.jar"
           fi
-          curl -sSL -o "$JAR" "$DOWNLOAD_URL"
+          curl -sSL -o "$CACHE_DIR/deathquotes-forge-1.20.1_1.20.4-3.4.jar" "$DOWNLOAD_URL"
+
+          # FastBoot: project 1030285, file 5696829
+          DOWNLOAD_URL=$(curl -sSL \
+            -H "x-api-key: $CF_API_KEY" \
+            "https://api.curseforge.com/v1/mods/1030285/files/5696829/download-url" \
+            | jq -r '.data // empty')
+          if [ -z "$DOWNLOAD_URL" ]; then
+            DOWNLOAD_URL="https://edge.forgecdn.net/files/5696/829/fastboot-1.20.x-1.2.jar"
+          fi
+          curl -sSL -o "$CACHE_DIR/fastboot-1.20.x-1.2.jar" "$DOWNLOAD_URL"
+
+          # Enhanced Boss Bars: project 580036, file 7543365
+          DOWNLOAD_URL=$(curl -sSL \
+            -H "x-api-key: $CF_API_KEY" \
+            "https://api.curseforge.com/v1/mods/580036/files/7543365/download-url" \
+            | jq -r '.data // empty')
+          if [ -z "$DOWNLOAD_URL" ]; then
+            DOWNLOAD_URL="https://edge.forgecdn.net/files/7543/365/[1.5]%20Enhanced%20Boss%20Bars.zip"
+          fi
+          curl -sSL -o "$CACHE_DIR/[1.5] Enhanced Boss Bars.zip" "$DOWNLOAD_URL"
 
       - name: 导出 .mrpack
         run: |

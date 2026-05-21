@@ -413,7 +413,7 @@ metafile = true
 
 [[files]]
 file = "mods/forgematica.pw.toml"
-hash = "91e8719a2b1c6a9b4ee6b3b9658ef5357cc2be66a6dddc6407e4529181902aff"
+hash = "9c6c4d612dd6fa8344f0e85affb0ddae860b63cc752c4063e53feec528ab4beb"
 metafile = true
 
 [[files]]
@@ -613,7 +613,7 @@ metafile = true
 
 [[files]]
 file = "mods/mafglib.pw.toml"
-hash = "d86cbc693097bff3ae88159c2f6e43459b5472e4047893e9942cbf76d4c6c4b7"
+hash = "d5caad546975a92bb92dbf72f773457b4fcdc024f7569115d931bd6b6938efed"
 metafile = true
 
 [[files]]
